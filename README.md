@@ -23,7 +23,8 @@ gdown <link-to-the-dataset>
 python process_data.py
 ```
 - After running ```process_data.py```, there will be two files: ```train_list.txt``` and ```test_list.txt```.
-- Trainng from scratch or from checkpoint:
+- Trainng from scratch or from [checkpoint](https://drive.google.com/file/d/1tMIU7G6zESMSg-e1skppB72WlLEqiVeb/view?usp=sharing):
 ```Shell
 python train.py
 ```
+- Checkpoint: Training 500 epochs with VGG-Face2 dataset using SGD optimizer: ```learning_rate=0.0001, momentum=0.95, weight_decay =1e-5```.
